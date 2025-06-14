@@ -1,7 +1,7 @@
-package makingThreads;
+package makingthreads;
 
 public class HelloWorldPrinter implements Runnable{
-    void dosomething(){
+    public void dosomething(){
         System.out.println(" 2 heeloo for thread " +" Thread  : " + Thread.currentThread().getName()) ;
     }
     
